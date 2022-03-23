@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar';
 function App() {
 
   const [posts, setPosts] = useState([
-    { name: "Parker", comment: "Test post 1" },
+    { name: "Parker", comment: "Test post" },
   ]);
 
   // function addNewPost(post){
