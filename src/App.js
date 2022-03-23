@@ -1,8 +1,25 @@
+import React, { useState } from 'react';
+import NavBar from './Components/NavBar';
+
+
 
 function App() {
+
+  const [posts, setPosts] = useState([
+    { name: "Parker", comment: "Test post 1" },
+  ]);
+
+  // function addNewPost(post){
+  //   let tempPosts = [...posts, post];
+  //   setPosts(tempPosts);
+  // }
+
   return (
     <div>
-      <h1>Hello</h1>
+      <NavBar />
+      <main>
+      
+      </main>
     </div>
   );
 }
