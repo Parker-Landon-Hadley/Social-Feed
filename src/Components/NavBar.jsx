@@ -1,7 +1,7 @@
 const NavBar = (props) => {
     return ( 
         <header>
-            <h1>Social Feed Project</h1>
+            <h1>Socially Fed</h1>
         </header>
      );
 }
